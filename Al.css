@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.section-width{
+    margin: 20px;
+    padding-top: 60px ;
+}
+#content_container{
+    max-width: 600px ;
+}
+img{
+    width: 50%;
+    margin-top: 20px;
+}
+/* ............HEADER........... */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header-area{
+    background: #222;
+    padding: 20px;
+}
+.container.header {
+	display: flex;
+    justify-content: space-between;
+}
+.logo h1{
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+#header ul {
+	display: flex;
+	margin: 0;
+}
+#header ul li{
+    margin: 0 18px;
+    list-style: none;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+#header ul li a{
+    color: #fff;
+}
+#header ul li a:hover{
+    color: #222;
+    transition: .3s;
+}
+#header ul li:hover{
+    background: #fff;
+    transition: .3s;
+}
+/* .........paragraph-section........ */
+.list-item li {
+	padding-bottom: 10px;
+}
+/* ...html logo... */
+.html-logo img {
+	width: 40%;
+    margin-top: 40px;
+}
+/* box-model */
+.box-model{
+    margin-bottom: 10px;
+    padding: 30px 30px 10px 30px;
+    border: 1px thick black;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 0;
+
+}
+#margin {
+	background-color: #666;
+    padding-bottom: 30px; 
+}
+  #border {
+	background-color: #999;
+    padding-bottom: 30px;
+}
+ #padding {
+    background-color: #bbb;
+    padding-bottom: 30px;
+  }
+  #content {
+    background-color: #fff;
+    padding-bottom: 30px;
+  }
+  #content:hover {
+    background-color: #222;
+    color: #fff;
+  }
